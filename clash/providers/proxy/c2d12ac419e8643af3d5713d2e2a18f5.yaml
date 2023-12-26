@@ -1,0 +1,265 @@
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG-1 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4453
+  server: mixv4-1.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F8\U0001F1EC [v6]SG-1 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4453
+  server: mixv6-1.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F8\U0001F1EC SG-2 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv4-2.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F8\U0001F1EC [v6]SG-2 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv6-2.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F8\U0001F1EC SG-3 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv4-3.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F8\U0001F1EC [v6]SG-3 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv6-3.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1EF\U0001F1F5 JP-O"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4414
+  server: mixv4-5.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1EF\U0001F1F5 [v6]JP-O"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4414
+  server: mixv6-5.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-H1 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4488
+  server: mixv4-6.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 [v6]US-H1 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4488
+  server: mixv6-6.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-H2 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4477
+  server: mixv4-7.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 [v6]US-H2 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4477
+  server: mixv6-7.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-F (free)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4482
+  server: mixv4-8.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1E9\U0001F1EA DE-1 (0.3x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4482
+  server: mixv4-10.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1E9\U0001F1EA [v6]DE-1 (0.3x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4482
+  server: mixv6-10.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-R1"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4490
+  server: mixv4-11.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-R2"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4405
+  server: mixv4-12.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F0\U0001F1F7 KR-Y (0.5x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4470
+  server: mixv4-15.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1F0\U0001F1F7 [v6]KR-Y (0.5x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4470
+  server: mixv6-15.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-A"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv4-18.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-G"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4435
+  server: mixv4-20.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-1"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4464
+  server: mixv4-21.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-2"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4429
+  server: mixv4-22.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-3"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4439
+  server: mixv4-23.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-4"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4418
+  server: mixv4-24.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-5"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4498
+  server: mixv4-25.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-6"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4455
+  server: mixv4-26.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-7"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4455
+  server: mixv4-27.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1ED\U0001F1F0 HK-8"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4425
+  server: mixv4-28.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-2 (0.5x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4440
+  server: mixv4-52.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-3"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4475
+  server: mixv4-53.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1E6\U0001F1FA AU-1 (0.5x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4432
+  server: mixv4-57.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1E6\U0001F1FA [v6]AU-1 (0.5x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4432
+  server: mixv6-57.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless

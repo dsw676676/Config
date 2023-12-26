@@ -1,0 +1,17 @@
+16:12:25 INF [API] listening addr=127.0.0.1:34469
+16:12:25 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+16:12:25 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+16:12:25 INF [Config] start initial provider name=provider-info
+16:12:25 INF [Config] start initial provider name=provider-scholar
+16:12:25 INF [Config] start initial provider name=provider-gfw
+16:12:25 WRN [Provider] pull resource failed error=Get "https://provider.wallesspku.space/clash/2000013355@stu.pku.edu.cn/37j5yse5xa?group=scholar&client=cfw&version=0.20.39": lookup provider.wallesspku.space on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable name=provider-scholar
+16:12:25 WRN [Provider] pull resource failed error=Get "https://provider.wallesspku.space/clash/2000013355@stu.pku.edu.cn/37j5yse5xa?group=info&client=cfw&version=0.20.39": lookup provider.wallesspku.space on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable name=provider-info
+16:12:25 INF [Config] initial compatible provider name=🚀 Accel.
+16:12:25 INF [Config] initial compatible provider name=🛑 AD
+16:12:25 INF [Config] initial compatible provider name=🎓 Scholar
+16:12:25 WRN [Provider] pull resource failed error=Get "https://provider.wallesspku.space/clash/2000013355@stu.pku.edu.cn/37j5yse5xa?group=gfw&client=cfw&version=0.20.39": lookup provider.wallesspku.space on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable name=provider-gfw
+16:12:25 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=system inet=198.18.0.1/16
+16:12:29 WRN [TCP] dial failed error=mixv6-7.194610.xyz:4470 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: netlink receive: network is unreachable proxy=🧱 GFW lAddr=127.0.0.1:48004 rAddr=raw.githubusercontent.com:443 rule=DomainKeyword rulePayload=github
+16:12:29 WRN [TCP] dial failed error=mixv6-7.194610.xyz:4470 connect error: all DNS requests failed, first error: dial udp4 223.5.5.5:53: netlink receive: network is unreachable proxy=🧱 GFW lAddr=127.0.0.1:48014 rAddr=raw.githubusercontent.com:443 rule=DomainKeyword rulePayload=github
+16:12:32 WRN [TCP] dial failed error=mixv6-7.194610.xyz:4470 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: netlink receive: network is unreachable proxy=🧱 GFW lAddr=127.0.0.1:48026 rAddr=weather-broker-cdn.api.bbci.co.uk:443 rule=DomainSuffix rulePayload=bbci.co.uk
+16:12:32 WRN [TCP] dial failed error=mixv6-7.194610.xyz:4470 connect error: all DNS requests failed, first error: dial udp4 223.5.5.5:53: netlink receive: network is unreachable proxy=🧱 GFW lAddr=127.0.0.1:48034 rAddr=weather-broker-cdn.api.bbci.co.uk:443 rule=DomainSuffix rulePayload=bbci.co.uk

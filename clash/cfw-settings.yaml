@@ -1,0 +1,16 @@
+showNewVersionIcon: true
+hideAfterStartup: true
+randomControllerPort: false
+runTimeFormat: "hh : mm : ss"
+trayOrders:
+  - - icon
+  - - status
+    - traffic
+    - text
+hideTrayIcon: false
+connShowProcess: true
+showTrayProxyDelayIndicator: true
+checkForUpdates: true
+systemTheme: true
+theme: 1
+useSystemEmoji: false

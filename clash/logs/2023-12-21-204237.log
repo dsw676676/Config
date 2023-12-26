@@ -1,0 +1,965 @@
+20:42:39 INF [API] listening addr=127.0.0.1:34469
+20:42:39 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+20:42:39 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+20:42:40 INF [Config] start initial provider name=provider-gfw
+20:42:40 INF [Config] start initial provider name=provider-info
+20:42:40 INF [Config] start initial provider name=provider-scholar
+20:42:40 INF [Config] initial compatible provider name=🛑 AD
+20:42:40 INF [Config] initial compatible provider name=🎓 Scholar
+20:42:40 INF [Config] initial compatible provider name=🚀 Accel.
+20:42:41 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=system inet=198.18.0.1/16
+20:42:53 INF [TCP] connected lAddr=127.0.0.1:46400 rAddr=api.wetter.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:43:02 INF [TCP] connected lAddr=127.0.0.1:46404 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:43:03 INF [TCP] connected lAddr=127.0.0.1:51730 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:06 INF [TCP] connected lAddr=127.0.0.1:51742 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:06 INF [TCP] connected lAddr=127.0.0.1:51738 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:19 INF [TCP] connected lAddr=127.0.0.1:58672 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:19 INF [TCP] connected lAddr=127.0.0.1:58656 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:19 INF [TCP] connected lAddr=127.0.0.1:58658 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:46:36 INF [TCP] connected lAddr=127.0.0.1:56824 rAddr=mirrors.wsyu.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+20:47:18 INF [TCP] connected lAddr=127.0.0.1:37798 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:19 INF [TCP] connected lAddr=127.0.0.1:37808 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:20 INF [TCP] connected lAddr=127.0.0.1:37814 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:20 INF [TCP] connected lAddr=127.0.0.1:37828 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:22 INF [TCP] connected lAddr=127.0.0.1:37838 rAddr=history.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:23 INF [TCP] connected lAddr=127.0.0.1:38566 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:23 INF [TCP] connected lAddr=127.0.0.1:38568 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:26 INF [TCP] connected lAddr=127.0.0.1:38578 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:27 INF [TCP] connected lAddr=127.0.0.1:38594 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:31 INF [TCP] connected lAddr=127.0.0.1:38610 rAddr=darkreader.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:47:33 INF [TCP] connected lAddr=127.0.0.1:48922 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:34 INF [TCP] connected lAddr=127.0.0.1:48932 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:47:35 INF [TCP] connected lAddr=127.0.0.1:48936 rAddr=zotero-repo.s3.amazonaws.com:443 mode=rule rule=DomainSuffix(amazonaws.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:47:37 INF [TCP] connected lAddr=127.0.0.1:48950 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:06 INF [TCP] connected lAddr=127.0.0.1:53948 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:07 INF [TCP] connected lAddr=127.0.0.1:53958 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:14 INF [TCP] connected lAddr=127.0.0.1:51548 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:20 INF [TCP] connected lAddr=127.0.0.1:51558 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:40 INF [TCP] connected lAddr=127.0.0.1:34784 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:40 INF [TCP] connected lAddr=127.0.0.1:34786 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:40 INF [TCP] connected lAddr=127.0.0.1:34788 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:40 INF [TCP] connected lAddr=127.0.0.1:34802 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:48:44 INF [TCP] connected lAddr=127.0.0.1:37670 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:48:44 INF [TCP] connected lAddr=127.0.0.1:37686 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:48:44 INF [TCP] connected lAddr=127.0.0.1:37682 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:46 INF [TCP] connected lAddr=127.0.0.1:37702 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:46 INF [TCP] connected lAddr=127.0.0.1:37718 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:46 INF [TCP] connected lAddr=127.0.0.1:37726 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37736 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37778 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37774 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37762 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37768 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37788 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:47 INF [TCP] connected lAddr=127.0.0.1:37746 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:48 INF [TCP] connected lAddr=127.0.0.1:37790 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:48 INF [TCP] connected lAddr=127.0.0.1:37794 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:49 INF [TCP] connected lAddr=127.0.0.1:37804 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:49 INF [TCP] connected lAddr=127.0.0.1:37812 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:48:57 INF [TCP] connected lAddr=127.0.0.1:59098 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:49:56 INF [TCP] connected lAddr=127.0.0.1:57106 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:34 INF [TCP] connected lAddr=127.0.0.1:35138 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:34 INF [TCP] connected lAddr=127.0.0.1:35144 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:34 INF [TCP] connected lAddr=127.0.0.1:35186 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:34 INF [TCP] connected lAddr=127.0.0.1:35154 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:34 INF [TCP] connected lAddr=127.0.0.1:35170 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:40 INF [TCP] connected lAddr=127.0.0.1:35196 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:50:40 INF [TCP] connected lAddr=127.0.0.1:35208 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:50:41 INF [TCP] connected lAddr=127.0.0.1:35214 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:50:41 INF [TCP] connected lAddr=127.0.0.1:35226 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:50:42 INF [TCP] connected lAddr=127.0.0.1:35238 rAddr=unpkg.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:50:42 INF [TCP] connected lAddr=127.0.0.1:35242 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:50:42 INF [TCP] connected lAddr=127.0.0.1:47118 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:50:42 INF [TCP] connected lAddr=127.0.0.1:47114 rAddr=pic4.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:50:42 INF [TCP] connected lAddr=127.0.0.1:47130 rAddr=pica.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:50:43 INF [TCP] connected lAddr=127.0.0.1:47142 rAddr=pic2.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:50:43 INF [TCP] connected lAddr=127.0.0.1:47158 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:50:43 INF [TCP] connected lAddr=127.0.0.1:47172 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:50:44 INF [TCP] connected lAddr=127.0.0.1:47186 rAddr=pic3.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:52:07 INF [TCP] connected lAddr=127.0.0.1:40304 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:21 INF [TCP] connected lAddr=127.0.0.1:53686 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:21 INF [TCP] connected lAddr=127.0.0.1:53682 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:22 INF [TCP] connected lAddr=127.0.0.1:53728 rAddr=a-wing.top:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:52:22 INF [TCP] connected lAddr=127.0.0.1:53702 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:22 INF [TCP] connected lAddr=127.0.0.1:53726 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:22 INF [TCP] connected lAddr=127.0.0.1:53722 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:22 INF [TCP] connected lAddr=127.0.0.1:53714 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:23 INF [TCP] connected lAddr=127.0.0.1:48926 rAddr=mirrors.creativecommons.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:52:23 INF [TCP] connected lAddr=127.0.0.1:48916 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:23 INF [TCP] connected lAddr=127.0.0.1:48924 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:23 INF [TCP] connected lAddr=127.0.0.1:48936 rAddr=a-wing-1.disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:25 INF [TCP] connected lAddr=127.0.0.1:48948 rAddr=disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:25 INF [TCP] connected lAddr=127.0.0.1:48950 rAddr=disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:26 INF [TCP] connected lAddr=127.0.0.1:48956 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:26 INF [TCP] connected lAddr=127.0.0.1:48966 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:27 INF [TCP] connected lAddr=127.0.0.1:48976 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:27 INF [TCP] connected lAddr=127.0.0.1:48992 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:48994 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:49004 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:49014 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:49012 rAddr=connect.facebook.net:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:49028 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:29 INF [TCP] connected lAddr=127.0.0.1:49044 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:30 INF [TCP] connected lAddr=127.0.0.1:49048 rAddr=disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:30 INF [TCP] connected lAddr=127.0.0.1:49058 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:30 INF [TCP] connected lAddr=127.0.0.1:49074 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:30 INF [TCP] connected lAddr=127.0.0.1:49080 rAddr=connect.facebook.net:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:30 INF [TCP] connected lAddr=127.0.0.1:49064 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:31 INF [TCP] connected lAddr=127.0.0.1:49082 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:31 INF [TCP] connected lAddr=127.0.0.1:49096 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:31 INF [TCP] connected lAddr=127.0.0.1:49086 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:32 INF [TCP] connected lAddr=127.0.0.1:49104 rAddr=www.facebook.com:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:32 INF [TCP] connected lAddr=127.0.0.1:49118 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:32 INF [TCP] connected lAddr=127.0.0.1:49120 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:52:34 INF [TCP] connected lAddr=127.0.0.1:59212 rAddr=glitter.services.disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:00 INF [TCP] connected lAddr=127.0.0.1:49086 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:03 INF [TCP] connected lAddr=127.0.0.1:37136 rAddr=skyao.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:03 INF [TCP] connected lAddr=127.0.0.1:37166 rAddr=skyao.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:03 INF [TCP] connected lAddr=127.0.0.1:37174 rAddr=skyao.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:03 INF [TCP] connected lAddr=127.0.0.1:37152 rAddr=skyao.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:03 INF [TCP] connected lAddr=127.0.0.1:37182 rAddr=skyao.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:04 INF [TCP] connected lAddr=127.0.0.1:37194 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:04 INF [TCP] connected lAddr=127.0.0.1:37210 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:04 INF [TCP] connected lAddr=127.0.0.1:37208 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:05 INF [TCP] connected lAddr=127.0.0.1:37220 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:05 INF [TCP] connected lAddr=127.0.0.1:37236 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:13 INF [TCP] connected lAddr=127.0.0.1:44896 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:14 INF [TCP] connected lAddr=127.0.0.1:44894 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:26 INF [TCP] connected lAddr=127.0.0.1:35280 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:26 INF [TCP] connected lAddr=127.0.0.1:35282 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:26 INF [TCP] connected lAddr=127.0.0.1:35296 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:31 INF [TCP] connected lAddr=127.0.0.1:35298 rAddr=www.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:35338 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:35324 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:35346 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:35352 rAddr=chinese.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:55226 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:55240 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:55254 rAddr=chinese.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:55212 rAddr=cdn.freecodecamp.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+20:53:32 INF [TCP] connected lAddr=127.0.0.1:35312 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:33 INF [TCP] connected lAddr=127.0.0.1:55266 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:33 INF [TCP] connected lAddr=127.0.0.1:55284 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:33 INF [TCP] connected lAddr=127.0.0.1:55268 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:34 INF [TCP] connected lAddr=127.0.0.1:55302 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:34 INF [TCP] connected lAddr=127.0.0.1:55330 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:34 INF [TCP] connected lAddr=127.0.0.1:55314 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:34 INF [TCP] connected lAddr=127.0.0.1:55286 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:38 INF [TCP] connected lAddr=127.0.0.1:55342 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:39 INF [TCP] connected lAddr=127.0.0.1:55368 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:53:39 INF [TCP] connected lAddr=127.0.0.1:55354 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:53:41 INF [TCP] connected lAddr=127.0.0.1:55384 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:53:41 INF [TCP] connected lAddr=127.0.0.1:55388 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:53:41 INF [TCP] connected lAddr=127.0.0.1:55398 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:53:42 INF [TCP] connected lAddr=127.0.0.1:55410 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:53:42 INF [TCP] connected lAddr=127.0.0.1:55420 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:53:42 INF [TCP] connected lAddr=127.0.0.1:55434 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:58966 rAddr=www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:58968 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:58978 rAddr=www-cdn.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:58988 rAddr=img2023.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59016 rAddr=mathjax.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59058 rAddr=res.wx.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59046 rAddr=account.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59032 rAddr=img2022.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59044 rAddr=img2022.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59064 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59078 rAddr=pic.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:00 INF [TCP] connected lAddr=127.0.0.1:59092 rAddr=guangzan.gitee.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59060 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59100 rAddr=lf6-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59106 rAddr=images.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59114 rAddr=lf6-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59120 rAddr=lf6-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59144 rAddr=lf6-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59002 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:01 INF [TCP] connected lAddr=127.0.0.1:59130 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:54:05 INF [TCP] connected lAddr=127.0.0.1:46352 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:54:05 INF [TCP] connected lAddr=127.0.0.1:46346 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:55:24 INF [TCP] connected lAddr=127.0.0.1:57340 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+20:55:50 INF [TCP] connected lAddr=127.0.0.1:52298 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+20:56:33 INF [TCP] connected lAddr=127.0.0.1:44352 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+20:56:59 INF [TCP] connected lAddr=127.0.0.1:55374 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:56:59 INF [TCP] connected lAddr=127.0.0.1:55386 rAddr=beacons5.gvt3.com:443 mode=rule rule=DomainSuffix(gvt3.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:02 INF [TCP] connected lAddr=127.0.0.1:55402 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:02 INF [TCP] connected lAddr=127.0.0.1:55408 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:03 INF [TCP] connected lAddr=127.0.0.1:35906 rAddr=cloudsearch.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:06 INF [TCP] connected lAddr=127.0.0.1:35922 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:42 INF [TCP] connected lAddr=127.0.0.1:40078 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:42 INF [TCP] connected lAddr=127.0.0.1:40092 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:42 INF [TCP] connected lAddr=127.0.0.1:40106 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:46 INF [TCP] connected lAddr=127.0.0.1:34478 rAddr=encrypted-tbn3.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:46 INF [TCP] connected lAddr=127.0.0.1:34476 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:57:58 INF [TCP] connected lAddr=127.0.0.1:50414 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50416 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50418 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50428 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50440 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50444 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+20:57:59 INF [TCP] connected lAddr=127.0.0.1:50454 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:58:02 INF [TCP] connected lAddr=127.0.0.1:50462 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:58:02 INF [TCP] connected lAddr=127.0.0.1:50472 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+20:58:09 INF [TCP] connected lAddr=127.0.0.1:55806 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:58:31 INF [TCP] connected lAddr=127.0.0.1:43344 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+20:59:49 INF [TCP] connected lAddr=127.0.0.1:37026 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:00:31 INF [TCP] connected lAddr=127.0.0.1:56656 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:01:01 INF [TCP] connected lAddr=127.0.0.1:59208 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:01:02 INF [TCP] connected lAddr=127.0.0.1:59220 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:01:02 INF [TCP] connected lAddr=127.0.0.1:42918 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:01:02 INF [TCP] connected lAddr=127.0.0.1:42934 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:01:02 INF [TCP] connected lAddr=127.0.0.1:42950 rAddr=mcs.volceapplog.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:42956 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:42986 rAddr=pica.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:42972 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:42996 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:43004 rAddr=pic4.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:01:03 INF [TCP] connected lAddr=127.0.0.1:43006 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:01:32 INF [TCP] connected lAddr=127.0.0.1:59094 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:01:49 INF [TCP] connected lAddr=127.0.0.1:33400 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:02:20 INF [TCP] connected lAddr=127.0.0.1:42180 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:02:21 INF [TCP] connected lAddr=127.0.0.1:42192 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:21 INF [TCP] connected lAddr=127.0.0.1:42208 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:22 INF [TCP] connected lAddr=127.0.0.1:42224 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:23 INF [TCP] connected lAddr=127.0.0.1:45928 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:25 INF [TCP] connected lAddr=127.0.0.1:45940 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:26 INF [TCP] connected lAddr=127.0.0.1:45942 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:26 INF [TCP] connected lAddr=127.0.0.1:45944 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:26 INF [TCP] connected lAddr=127.0.0.1:45958 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:02:27 INF [TCP] connected lAddr=127.0.0.1:45962 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:45972 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:45982 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:46026 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:45998 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:45976 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:28 INF [TCP] connected lAddr=127.0.0.1:46010 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:29 INF [TCP] connected lAddr=127.0.0.1:46040 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:30 INF [TCP] connected lAddr=127.0.0.1:46042 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:30 INF [TCP] connected lAddr=127.0.0.1:46056 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38608 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38624 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38640 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38652 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38664 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:35 INF [TCP] connected lAddr=127.0.0.1:38672 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:36 INF [TCP] connected lAddr=127.0.0.1:38688 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:46 INF [TCP] connected lAddr=127.0.0.1:53140 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:50 INF [TCP] connected lAddr=127.0.0.1:53154 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53164 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53204 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53178 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53190 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53198 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:51 INF [TCP] connected lAddr=127.0.0.1:53210 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:53 INF [TCP] connected lAddr=127.0.0.1:53750 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:02:53 INF [TCP] connected lAddr=127.0.0.1:53766 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:03:23 INF [TCP] connected lAddr=127.0.0.1:59806 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:03:24 INF [TCP] connected lAddr=127.0.0.1:59822 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:40670 rAddr=ulomo.github.io:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:40682 rAddr=upload-images.jianshu.io:443 mode=rule rule=DomainSuffix(jianshu.io) proxy=DIRECT
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:40676 rAddr=upload-images.jianshu.io:443 mode=rule rule=DomainSuffix(jianshu.io) proxy=DIRECT
+21:03:39 INF [TCP] connected lAddr=127.0.0.1:40684 rAddr=config.immersivetranslate.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:40830 rAddr=blog.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:40854 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:40846 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:40870 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40872 rAddr=img-home.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40884 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40908 rAddr=mp-activity.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40906 rAddr=silkroad.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40890 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40914 rAddr=kunpeng.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:54 INF [TCP] connected lAddr=127.0.0.1:40922 rAddr=mp-activity.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40940 rAddr=statistic.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40944 rAddr=devpress-api.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40934 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40948 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40964 rAddr=eva.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40956 rAddr=eva.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40966 rAddr=eva.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40978 rAddr=eva.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40982 rAddr=eva.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:41000 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:55 INF [TCP] connected lAddr=127.0.0.1:40990 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:56 INF [TCP] connected lAddr=127.0.0.1:40952 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:03:58 INF [TCP] connected lAddr=127.0.0.1:41006 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:03:58 INF [TCP] connected lAddr=127.0.0.1:41016 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:03:58 INF [TCP] connected lAddr=127.0.0.1:41022 rAddr=blog.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:04:19 INF [TCP] connected lAddr=127.0.0.1:60904 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:04:52 INF [TCP] connected lAddr=127.0.0.1:41302 rAddr=mirrors.tuna.tsinghua.edu.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:07:44 INF [TCP] connected lAddr=127.0.0.1:48122 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:44 INF [TCP] connected lAddr=127.0.0.1:48130 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:45 INF [TCP] connected lAddr=127.0.0.1:48132 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:58 INF [TCP] connected lAddr=127.0.0.1:51514 rAddr=passport.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:58 INF [TCP] connected lAddr=127.0.0.1:51524 rAddr=passport.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:58 INF [TCP] connected lAddr=127.0.0.1:51538 rAddr=passport.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:07:58 INF [TCP] connected lAddr=127.0.0.1:51544 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:07:58 INF [TCP] connected lAddr=127.0.0.1:51540 rAddr=passport.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:00 INF [TCP] connected lAddr=127.0.0.1:51558 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:00 INF [TCP] connected lAddr=127.0.0.1:51572 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:27 INF [TCP] connected lAddr=127.0.0.1:50846 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:08:31 INF [TCP] connected lAddr=127.0.0.1:50852 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:50872 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:50860 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:37312 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:37322 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:37338 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:37352 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:33 INF [TCP] connected lAddr=127.0.0.1:37356 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:33 INF [TCP] connected lAddr=127.0.0.1:37368 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:34 INF [TCP] connected lAddr=127.0.0.1:37374 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:34 INF [TCP] connected lAddr=127.0.0.1:37370 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:08:34 INF [TCP] connected lAddr=127.0.0.1:37390 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:34 INF [TCP] connected lAddr=127.0.0.1:37400 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:34 INF [TCP] connected lAddr=127.0.0.1:37412 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:37 INF [TCP] connected lAddr=127.0.0.1:37436 rAddr=impression.biligame.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:38 INF [TCP] connected lAddr=127.0.0.1:37420 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:08:45 INF [TCP] connected lAddr=127.0.0.1:36046 rAddr=cn-bj-se-01-02.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:52 INF [TCP] connected lAddr=127.0.0.1:36048 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:52 INF [TCP] connected lAddr=127.0.0.1:50322 rAddr=xy171x8x172x192xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50334 rAddr=xy14x135x77x91xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50346 rAddr=xy42x7x44x143xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50338 rAddr=xy42x7x44x143xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50348 rAddr=xy171x8x172x192xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:08:54 INF [TCP] connected lAddr=127.0.0.1:50360 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:54 INF [TCP] connected lAddr=127.0.0.1:50376 rAddr=le3-api.game.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:54 INF [TCP] connected lAddr=127.0.0.1:50392 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:08:55 INF [TCP] connected lAddr=127.0.0.1:50402 rAddr=api.geetest.com:443 mode=rule rule=DomainSuffix(geetest.com) proxy=DIRECT
+21:08:55 INF [TCP] connected lAddr=127.0.0.1:50408 rAddr=static.geetest.com:443 mode=rule rule=DomainSuffix(geetest.com) proxy=DIRECT
+21:08:55 INF [TCP] connected lAddr=127.0.0.1:50418 rAddr=api.geetest.com:443 mode=rule rule=DomainSuffix(geetest.com) proxy=DIRECT
+21:09:13 INF [TCP] connected lAddr=127.0.0.1:44238 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:13 INF [TCP] connected lAddr=127.0.0.1:44254 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:14 INF [TCP] connected lAddr=127.0.0.1:44260 rAddr=xy14x135x77x91xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:09:20 INF [TCP] connected lAddr=127.0.0.1:44274 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:24 INF [TCP] connected lAddr=127.0.0.1:58972 rAddr=le3-api.game.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:24 INF [TCP] connected lAddr=127.0.0.1:58988 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:33 INF [TCP] connected lAddr=127.0.0.1:59580 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:34 INF [TCP] connected lAddr=127.0.0.1:59596 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59584 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59676 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59618 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59608 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59632 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59642 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59654 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:59660 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:36 INF [TCP] connected lAddr=127.0.0.1:59684 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59698 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59704 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59724 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59726 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59732 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:39 INF [TCP] connected lAddr=127.0.0.1:59720 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:09:44 INF [TCP] connected lAddr=127.0.0.1:40068 rAddr=manga.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:44 INF [TCP] connected lAddr=127.0.0.1:40072 rAddr=manga.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:09:45 INF [TCP] connected lAddr=127.0.0.1:40080 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:44 INF [TCP] connected lAddr=127.0.0.1:56404 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:44 INF [TCP] connected lAddr=127.0.0.1:56406 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:44 INF [TCP] connected lAddr=127.0.0.1:56418 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:44 INF [TCP] connected lAddr=127.0.0.1:56410 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:44 INF [TCP] connected lAddr=127.0.0.1:56428 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:45 INF [TCP] connected lAddr=127.0.0.1:56442 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:45 INF [TCP] connected lAddr=127.0.0.1:56472 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:45 INF [TCP] connected lAddr=127.0.0.1:56488 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:45 INF [TCP] connected lAddr=127.0.0.1:56458 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:49 INF [TCP] connected lAddr=127.0.0.1:56494 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:50 INF [TCP] connected lAddr=127.0.0.1:56500 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:51 INF [TCP] connected lAddr=127.0.0.1:56526 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:10:51 INF [TCP] connected lAddr=127.0.0.1:56530 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:10:51 INF [TCP] connected lAddr=127.0.0.1:56510 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56534 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56536 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56206 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56190 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56198 rAddr=pica.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56218 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:10:52 INF [TCP] connected lAddr=127.0.0.1:56544 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:53 INF [TCP] connected lAddr=127.0.0.1:56222 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:54 INF [TCP] connected lAddr=127.0.0.1:56230 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:55 INF [TCP] connected lAddr=127.0.0.1:56244 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:10:55 INF [TCP] connected lAddr=127.0.0.1:56258 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:10:58 INF [TCP] connected lAddr=127.0.0.1:56266 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:11 INF [TCP] connected lAddr=127.0.0.1:34334 rAddr=alighters.github.io:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:13 INF [TCP] connected lAddr=127.0.0.1:47810 rAddr=ajax.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:13 INF [TCP] connected lAddr=127.0.0.1:47836 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:13 INF [TCP] connected lAddr=127.0.0.1:47826 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47838 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47846 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47864 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47852 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47874 rAddr=alighters.disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47882 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:15 INF [TCP] connected lAddr=127.0.0.1:47908 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:16 INF [TCP] connected lAddr=127.0.0.1:47884 rAddr=platform.twitter.com:443 mode=rule rule=DomainKeyword(twitter) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:16 INF [TCP] connected lAddr=127.0.0.1:47892 rAddr=alighters.github.io:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:16 INF [TCP] connected lAddr=127.0.0.1:47916 rAddr=alighters.github.io:443 mode=rule rule=DomainKeyword(github) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:17 INF [TCP] connected lAddr=127.0.0.1:47920 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:17 INF [TCP] connected lAddr=127.0.0.1:47936 rAddr=disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:17 INF [TCP] connected lAddr=127.0.0.1:47940 rAddr=platform.twitter.com:443 mode=rule rule=DomainKeyword(twitter) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:17 INF [TCP] connected lAddr=127.0.0.1:47944 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:17 INF [TCP] connected lAddr=127.0.0.1:47956 rAddr=disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:19 INF [TCP] connected lAddr=127.0.0.1:47960 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:19 INF [TCP] connected lAddr=127.0.0.1:48000 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:11:19 INF [TCP] connected lAddr=127.0.0.1:47974 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:19 INF [TCP] connected lAddr=127.0.0.1:47980 rAddr=syndication.twitter.com:443 mode=rule rule=DomainKeyword(twitter) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:19 INF [TCP] connected lAddr=127.0.0.1:47988 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:20 INF [TCP] connected lAddr=127.0.0.1:48014 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:20 INF [TCP] connected lAddr=127.0.0.1:48028 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:20 INF [TCP] connected lAddr=127.0.0.1:48040 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:22 INF [TCP] connected lAddr=127.0.0.1:48046 rAddr=c.disquscdn.com:443 mode=rule rule=DomainSuffix(disquscdn.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:22 INF [TCP] connected lAddr=127.0.0.1:48056 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:22 INF [TCP] connected lAddr=127.0.0.1:48058 rAddr=connect.facebook.net:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:22 INF [TCP] connected lAddr=127.0.0.1:48074 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:24 INF [TCP] connected lAddr=127.0.0.1:46496 rAddr=connect.facebook.net:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:24 INF [TCP] connected lAddr=127.0.0.1:46498 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:25 INF [TCP] connected lAddr=127.0.0.1:46506 rAddr=www.facebook.com:443 mode=rule rule=DomainKeyword(facebook) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:26 INF [TCP] connected lAddr=127.0.0.1:46516 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:11:26 INF [TCP] connected lAddr=127.0.0.1:46520 rAddr=glitter.services.disqus.com:443 mode=rule rule=DomainSuffix(disqus.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:54 INF [TCP] connected lAddr=127.0.0.1:41792 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:55 INF [TCP] connected lAddr=127.0.0.1:41804 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:11:55 INF [TCP] connected lAddr=127.0.0.1:41800 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:11:56 INF [TCP] connected lAddr=127.0.0.1:41814 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:12:28 INF [TCP] connected lAddr=127.0.0.1:36584 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:12:51 INF [TCP] connected lAddr=127.0.0.1:59286 rAddr=api.wetter.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:14:10 INF [TCP] connected lAddr=127.0.0.1:51654 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:10 INF [TCP] connected lAddr=127.0.0.1:38784 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:16 INF [TCP] connected lAddr=127.0.0.1:54524 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:16:17 INF [TCP] connected lAddr=127.0.0.1:54540 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:16:18 INF [TCP] connected lAddr=127.0.0.1:54554 rAddr=cn-bj-se-01-04.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:19 INF [TCP] connected lAddr=127.0.0.1:54570 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:22 INF [TCP] connected lAddr=127.0.0.1:54582 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:25 INF [TCP] connected lAddr=127.0.0.1:39348 rAddr=cn-bj-se-01-05.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:27 INF [TCP] connected lAddr=127.0.0.1:39354 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:16:35 INF [TCP] connected lAddr=127.0.0.1:51918 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51924 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51956 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51938 rAddr=xy115x54x237x195xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51954 rAddr=xy42x63x249x212xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51970 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51980 rAddr=xy218x24x77x133xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:16:36 INF [TCP] connected lAddr=127.0.0.1:51988 rAddr=xy42x63x249x212xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:51992 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:52000 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:52008 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:52012 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:52014 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:37 INF [TCP] connected lAddr=127.0.0.1:52030 rAddr=interface.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:38 INF [TCP] connected lAddr=127.0.0.1:52036 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:16:38 INF [TCP] connected lAddr=127.0.0.1:52038 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:17:17 INF [TCP] connected lAddr=127.0.0.1:56712 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:17:18 INF [TCP] connected lAddr=127.0.0.1:56716 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:17:28 INF [TCP] connected lAddr=127.0.0.1:54848 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:17:34 INF [TCP] connected lAddr=127.0.0.1:40414 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:17:34 INF [TCP] connected lAddr=127.0.0.1:40424 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:18:17 INF [TCP] connected lAddr=127.0.0.1:52140 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:18:38 INF [TCP] connected lAddr=127.0.0.1:47366 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:11 INF [TCP] connected lAddr=127.0.0.1:49234 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:11 INF [TCP] connected lAddr=127.0.0.1:49224 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:20:14 INF [TCP] connected lAddr=127.0.0.1:51018 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:35 INF [TCP] connected lAddr=127.0.0.1:37092 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:44 INF [TCP] connected lAddr=127.0.0.1:35074 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35076 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35104 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35098 rAddr=xy1x28x19x51xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35084 rAddr=xy27x37x229x123xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35126 rAddr=cn-tj-cu-01-13.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:49 INF [TCP] connected lAddr=127.0.0.1:35114 rAddr=cn-tj-cu-01-13.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:50 INF [TCP] connected lAddr=127.0.0.1:35142 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:51 INF [TCP] connected lAddr=127.0.0.1:35144 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:51 INF [TCP] connected lAddr=127.0.0.1:35148 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:51 INF [TCP] connected lAddr=127.0.0.1:35150 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:51 INF [TCP] connected lAddr=127.0.0.1:35166 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:52 INF [TCP] connected lAddr=127.0.0.1:35180 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:57 INF [TCP] connected lAddr=127.0.0.1:48866 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:20:57 INF [TCP] connected lAddr=127.0.0.1:48874 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:21:52 INF [TCP] connected lAddr=127.0.0.1:46982 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:36 INF [TCP] connected lAddr=127.0.0.1:42972 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:39 INF [TCP] connected lAddr=127.0.0.1:42976 rAddr=cn-bj-se-01-02.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:42 INF [TCP] connected lAddr=127.0.0.1:42980 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:42 INF [TCP] connected lAddr=127.0.0.1:38274 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:42 INF [TCP] connected lAddr=127.0.0.1:38262 rAddr=xy221x199x93x44xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:22:42 INF [TCP] connected lAddr=127.0.0.1:38248 rAddr=xy58x253x98x131xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:22:42 INF [TCP] connected lAddr=127.0.0.1:38290 rAddr=xy111x161x118x62xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:22:44 INF [TCP] connected lAddr=127.0.0.1:38296 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:44 INF [TCP] connected lAddr=127.0.0.1:38306 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:22:44 INF [TCP] connected lAddr=127.0.0.1:38318 rAddr=xy221x199x93x44xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:22:44 INF [TCP] connected lAddr=127.0.0.1:38332 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:23:23 INF [TCP] connected lAddr=127.0.0.1:35470 rAddr=live-trace.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:39 INF [TCP] connected lAddr=127.0.0.1:37060 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37070 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37092 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37072 rAddr=xy113x7x211x11xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37080 rAddr=xy123x184x24x108xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37100 rAddr=xy113x7x211x11xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:24:40 INF [TCP] connected lAddr=127.0.0.1:37104 rAddr=xy113x7x211x11xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:24:41 INF [TCP] connected lAddr=127.0.0.1:37120 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:41 INF [TCP] connected lAddr=127.0.0.1:37134 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:41 INF [TCP] connected lAddr=127.0.0.1:37146 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:42 INF [TCP] connected lAddr=127.0.0.1:37154 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:24:42 INF [TCP] connected lAddr=127.0.0.1:37160 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:25:31 INF [TCP] connected lAddr=127.0.0.1:33912 rAddr=album.biliimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:25:38 INF [TCP] connected lAddr=127.0.0.1:49840 rAddr=live-trace.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:11 INF [TCP] connected lAddr=127.0.0.1:33888 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:12 INF [TCP] connected lAddr=127.0.0.1:51812 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:12 INF [TCP] connected lAddr=127.0.0.1:51816 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:13 INF [TCP] connected lAddr=127.0.0.1:51826 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:13 INF [TCP] connected lAddr=127.0.0.1:51834 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:36 INF [TCP] connected lAddr=127.0.0.1:44608 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:40 INF [TCP] connected lAddr=127.0.0.1:44614 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:26:56 INF [TCP] connected lAddr=127.0.0.1:47476 rAddr=data.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:28:19 INF [TCP] connected lAddr=127.0.0.1:57284 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:29:19 INF [TCP] connected lAddr=127.0.0.1:58240 rAddr=autoconfig.kde.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:20 INF [TCP] connected lAddr=127.0.0.1:58256 rAddr=id.opendesktop.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:21 INF [TCP] connected lAddr=127.0.0.1:58264 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:22 INF [TCP] connected lAddr=127.0.0.1:58272 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52788 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52798 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52800 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52810 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52820 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52822 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:23 INF [TCP] connected lAddr=127.0.0.1:52830 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52834 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52844 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52850 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52872 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52888 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:24 INF [TCP] connected lAddr=127.0.0.1:52856 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:27 INF [TCP] connected lAddr=127.0.0.1:52904 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:32 INF [TCP] connected lAddr=127.0.0.1:52918 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:33 INF [TCP] connected lAddr=127.0.0.1:53376 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:33 INF [TCP] connected lAddr=127.0.0.1:53390 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:29:33 INF [TCP] connected lAddr=127.0.0.1:53404 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:18 INF [TCP] connected lAddr=127.0.0.1:38690 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:18 INF [TCP] connected lAddr=127.0.0.1:38708 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:18 INF [TCP] connected lAddr=127.0.0.1:38702 rAddr=images.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:18 INF [TCP] connected lAddr=127.0.0.1:38722 rAddr=id.opendesktop.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:19 INF [TCP] connected lAddr=127.0.0.1:38726 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:20 INF [TCP] connected lAddr=127.0.0.1:38736 rAddr=api.kde-look.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:21 INF [TCP] connected lAddr=127.0.0.1:38744 rAddr=files04.pling.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:30:22 INF [TCP] connected lAddr=127.0.0.1:38748 rAddr=ocs-dl.fra1.cdn.digitaloceanspaces.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39974 rAddr=darkreader.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39960 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39944 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39928 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39924 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:19 INF [TCP] connected lAddr=127.0.0.1:39952 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:39988 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:39998 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:40010 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:40026 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:40038 rAddr=history.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:20 INF [TCP] connected lAddr=127.0.0.1:40040 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:21 INF [TCP] connected lAddr=127.0.0.1:40050 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:21 INF [TCP] connected lAddr=127.0.0.1:40056 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:21 INF [TCP] connected lAddr=127.0.0.1:40072 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:22 INF [TCP] connected lAddr=127.0.0.1:40074 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:23 INF [TCP] connected lAddr=127.0.0.1:33212 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:24 INF [TCP] connected lAddr=127.0.0.1:33224 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33240 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33252 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33262 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33276 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33290 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33288 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33298 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:25 INF [TCP] connected lAddr=127.0.0.1:33292 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33308 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33310 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33304 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33316 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33322 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:33:26 INF [TCP] connected lAddr=127.0.0.1:33328 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:29 INF [TCP] connected lAddr=127.0.0.1:33338 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:33:33 INF [TCP] connected lAddr=127.0.0.1:49994 rAddr=cn-bj-se-01-04.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:51 INF [TCP] connected lAddr=127.0.0.1:57568 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:52 INF [TCP] connected lAddr=127.0.0.1:44668 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:53 INF [TCP] connected lAddr=127.0.0.1:44678 rAddr=xy42x226x204x193xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:33:53 INF [TCP] connected lAddr=127.0.0.1:44684 rAddr=xy114x229x52x171xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:33:53 INF [TCP] connected lAddr=127.0.0.1:44686 rAddr=xy123x139x63x187xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:33:54 INF [TCP] connected lAddr=127.0.0.1:44698 rAddr=xy114x229x52x171xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:33:54 INF [TCP] connected lAddr=127.0.0.1:44714 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:55 INF [TCP] connected lAddr=127.0.0.1:44718 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:55 INF [TCP] connected lAddr=127.0.0.1:44732 rAddr=interface.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:33:56 INF [TCP] connected lAddr=127.0.0.1:44736 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:19 INF [TCP] connected lAddr=127.0.0.1:36874 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:19 INF [TCP] connected lAddr=127.0.0.1:36882 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:19 INF [TCP] connected lAddr=127.0.0.1:36898 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:21 INF [TCP] connected lAddr=127.0.0.1:36914 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:34:24 INF [TCP] connected lAddr=127.0.0.1:41800 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:38 INF [TCP] connected lAddr=127.0.0.1:52000 rAddr=live-trace.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:34:41 INF [TCP] connected lAddr=127.0.0.1:52008 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:41 INF [TCP] connected lAddr=127.0.0.1:52018 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:41 INF [TCP] connected lAddr=127.0.0.1:52020 rAddr=steamcommunity.com:443 mode=rule rule=DomainSuffix(steamcommunity.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:42 INF [TCP] connected lAddr=127.0.0.1:52040 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=DIRECT
+21:34:42 INF [TCP] connected lAddr=127.0.0.1:52024 rAddr=steamcommunity-a.akamaihd.net:443 mode=rule rule=DomainSuffix(akamaihd.net) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:46 INF [TCP] connected lAddr=127.0.0.1:42280 rAddr=store.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:46 INF [TCP] connected lAddr=127.0.0.1:42284 rAddr=cdn.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42304 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42328 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42330 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42336 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42314 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42340 rAddr=clan.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:47 INF [TCP] connected lAddr=127.0.0.1:42288 rAddr=cdn.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:48 INF [TCP] connected lAddr=127.0.0.1:42344 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:48 INF [TCP] connected lAddr=127.0.0.1:42356 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:48 INF [TCP] connected lAddr=127.0.0.1:42362 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:50 INF [TCP] connected lAddr=127.0.0.1:42378 rAddr=cdn.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:52 INF [TCP] connected lAddr=127.0.0.1:52396 rAddr=community.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:52 INF [TCP] connected lAddr=127.0.0.1:52392 rAddr=community.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:52 INF [TCP] connected lAddr=127.0.0.1:42390 rAddr=community.cloudflare.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:34:53 INF [TCP] connected lAddr=127.0.0.1:52408 rAddr=steamuserimages-a.akamaihd.net:443 mode=rule rule=DomainSuffix(akamaihd.net) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:34:53 INF [TCP] connected lAddr=127.0.0.1:42380 rAddr=community.akamai.steamstatic.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:35:04 INF [TCP] connected lAddr=127.0.0.1:35616 rAddr=ublockorigin.pages.dev:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:35:04 INF [TCP] connected lAddr=127.0.0.1:35624 rAddr=cdn.jsdelivr.net:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:35:53 INF [TCP] connected lAddr=127.0.0.1:56178 rAddr=store.steampowered.com:443 mode=rule rule=DomainSuffix(store.steampowered.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:35:55 INF [TCP] connected lAddr=127.0.0.1:56180 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:35:56 INF [TCP] connected lAddr=127.0.0.1:56194 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:11 INF [TCP] connected lAddr=127.0.0.1:36416 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:23 INF [TCP] connected lAddr=127.0.0.1:58118 rAddr=api.wetter.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58166 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58126 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58138 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58144 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58156 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58174 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58188 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58192 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:29 INF [TCP] connected lAddr=127.0.0.1:58172 rAddr=darkreader.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58194 rAddr=history.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58200 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58220 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58278 rAddr=xy123x139x63x187xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58290 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58264 rAddr=xy153x99x136x129xy.mcdn.bilivideo.cn:8082 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58206 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:30 INF [TCP] connected lAddr=127.0.0.1:58296 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58236 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58238 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58258 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58246 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58300 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58312 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:58304 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37212 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37220 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37222 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37238 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37252 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37266 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37276 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:32 INF [TCP] connected lAddr=127.0.0.1:37278 rAddr=interface.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:33 INF [TCP] connected lAddr=127.0.0.1:37290 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:33 INF [TCP] connected lAddr=127.0.0.1:37294 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:47 INF [TCP] connected lAddr=127.0.0.1:40456 rAddr=cn-bj-se-01-05.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:48 INF [TCP] connected lAddr=127.0.0.1:40464 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:50 INF [TCP] connected lAddr=127.0.0.1:40470 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:50 INF [TCP] connected lAddr=127.0.0.1:40486 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:36:51 INF [TCP] connected lAddr=127.0.0.1:40492 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:08 INF [TCP] connected lAddr=127.0.0.1:54356 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:19 INF [TCP] connected lAddr=127.0.0.1:57558 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:19 INF [TCP] connected lAddr=127.0.0.1:57566 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:24 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:27 INF [TCP] connected lAddr=127.0.0.1:59852 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:28 INF [TCP] connected lAddr=127.0.0.1:59856 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:37:28 INF [TCP] connected lAddr=127.0.0.1:59864 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:37:28 INF [TCP] connected lAddr=127.0.0.1:59876 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:37:29 INF [TCP] connected lAddr=127.0.0.1:59880 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:37:30 INF [TCP] connected lAddr=127.0.0.1:59894 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:43 INF [TCP] connected lAddr=127.0.0.1:52518 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:37:43 INF [TCP] connected lAddr=127.0.0.1:52528 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:40:20 INF [TCP] connected lAddr=127.0.0.1:49764 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:40:56 INF [TCP] connected lAddr=127.0.0.1:53776 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:42:20 INF [TCP] connected lAddr=127.0.0.1:41212 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:43:19 INF [TCP] connected lAddr=127.0.0.1:59436 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:43:20 INF [TCP] connected lAddr=127.0.0.1:59430 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:44:19 INF [TCP] connected lAddr=127.0.0.1:39184 rAddr=dsw676676.dynv6.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:44:20 INF [TCP] connected lAddr=127.0.0.1:39200 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:20 INF [TCP] connected lAddr=127.0.0.1:44568 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:49 INF [TCP] connected lAddr=127.0.0.1:36830 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:49 INF [TCP] connected lAddr=127.0.0.1:36836 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:52 INF [TCP] connected lAddr=127.0.0.1:53008 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:54 INF [TCP] connected lAddr=127.0.0.1:53016 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:55 INF [TCP] connected lAddr=127.0.0.1:53022 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:55 INF [TCP] connected lAddr=127.0.0.1:53026 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:55 INF [TCP] connected lAddr=127.0.0.1:53028 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:55 INF [TCP] connected lAddr=127.0.0.1:53042 rAddr=cn-bj-se-01-02.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:55 INF [TCP] connected lAddr=127.0.0.1:53044 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53056 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53068 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53072 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53082 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53094 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:56 INF [TCP] connected lAddr=127.0.0.1:53098 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:57 INF [TCP] connected lAddr=127.0.0.1:53102 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:57 INF [TCP] connected lAddr=127.0.0.1:53114 rAddr=interface.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:57 INF [TCP] connected lAddr=127.0.0.1:53126 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:58 INF [TCP] connected lAddr=127.0.0.1:53150 rAddr=album.biliimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:46:58 INF [TCP] connected lAddr=127.0.0.1:53142 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:48:07 INF [TCP] connected lAddr=127.0.0.1:48836 rAddr=manga.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:07 INF [TCP] connected lAddr=127.0.0.1:48850 rAddr=manga.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:07 INF [TCP] connected lAddr=127.0.0.1:48866 rAddr=manga.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:10 INF [TCP] connected lAddr=127.0.0.1:48868 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+21:48:10 INF [TCP] connected lAddr=127.0.0.1:48870 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+21:48:12 INF [TCP] connected lAddr=127.0.0.1:48882 rAddr=m.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:13 INF [TCP] connected lAddr=127.0.0.1:45720 rAddr=s3.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+21:48:13 INF [TCP] connected lAddr=127.0.0.1:45736 rAddr=s2.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+21:48:13 INF [TCP] connected lAddr=127.0.0.1:45734 rAddr=s1.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+21:48:13 INF [TCP] connected lAddr=127.0.0.1:45716 rAddr=cdn.aiqingyu1314.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45756 rAddr=p3.toutiaoimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45748 rAddr=p1.bdxiguaimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45786 rAddr=img.yzcdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45762 rAddr=api.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45776 rAddr=api.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:14 INF [TCP] connected lAddr=127.0.0.1:45798 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:48:15 INF [TCP] connected lAddr=127.0.0.1:45834 rAddr=fc.sinaimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:15 INF [TCP] connected lAddr=127.0.0.1:45836 rAddr=fc.sinaimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:15 INF [TCP] connected lAddr=127.0.0.1:45844 rAddr=fc.sinaimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:15 INF [TCP] connected lAddr=127.0.0.1:45812 rAddr=fc.sinaimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:15 INF [TCP] connected lAddr=127.0.0.1:45822 rAddr=fc.sinaimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+21:48:19 INF [TCP] connected lAddr=127.0.0.1:45850 rAddr=agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:20 INF [TCP] connected lAddr=127.0.0.1:45852 rAddr=www.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:20 INF [TCP] connected lAddr=127.0.0.1:45854 rAddr=unpkg.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:48:20 INF [TCP] connected lAddr=127.0.0.1:45866 rAddr=cdn.staticfile.org:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45880 rAddr=unpkg.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45928 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45884 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45924 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45894 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45914 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:21 INF [TCP] connected lAddr=127.0.0.1:45900 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:31 INF [TCP] connected lAddr=127.0.0.1:57362 rAddr=www.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:32 INF [TCP] connected lAddr=127.0.0.1:57370 rAddr=cdn.aqdstatic.com:966 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:33 INF [TCP] connected lAddr=127.0.0.1:49526 rAddr=www.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:34 INF [TCP] connected lAddr=127.0.0.1:49538 rAddr=lf26-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:34 INF [TCP] connected lAddr=127.0.0.1:49546 rAddr=43.240.74.134:8443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:34 INF [TCP] connected lAddr=127.0.0.1:49558 rAddr=cdn.aiqingyu1314.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:34 INF [TCP] connected lAddr=127.0.0.1:49574 rAddr=cdn.aiqingyu1314.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:34 INF [TCP] connected lAddr=127.0.0.1:49578 rAddr=mgtv-bbqn.oss-cn-beijing.aliyuncs.com:443 mode=rule rule=DomainSuffix(aliyuncs.com) proxy=DIRECT
+21:48:35 INF [TCP] connected lAddr=127.0.0.1:49594 rAddr=lf9-cdn-tos.bytecdntp.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:35 INF [TCP] connected lAddr=127.0.0.1:49584 rAddr=www.agedm.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:48:35 INF [TCP] connected lAddr=127.0.0.1:49608 rAddr=v11.toutiaovod.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:36 INF [TCP] connected lAddr=127.0.0.1:49612 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:43 INF [TCP] connected lAddr=127.0.0.1:48172 rAddr=v11.toutiaovod.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:43 INF [TCP] connected lAddr=127.0.0.1:48182 rAddr=v11.toutiaovod.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:48:43 INF [TCP] connected lAddr=127.0.0.1:48160 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:49:10 INF [TCP] connected lAddr=127.0.0.1:44428 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:51:10 INF [TCP] connected lAddr=127.0.0.1:57476 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:53:10 INF [TCP] connected lAddr=127.0.0.1:59600 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:55:10 INF [TCP] connected lAddr=127.0.0.1:35464 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:57:10 INF [TCP] connected lAddr=127.0.0.1:49778 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:58:50 INF [TCP] connected lAddr=127.0.0.1:59112 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:58:51 INF [TCP] connected lAddr=127.0.0.1:59126 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+21:59:10 INF [TCP] connected lAddr=127.0.0.1:49188 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+21:59:37 INF [TCP] connected lAddr=127.0.0.1:36276 rAddr=subs.941321.xyz:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+21:59:39 INF [Config] start initial provider name=provider-gfw
+21:59:39 INF [Config] start initial provider name=provider-info
+21:59:39 INF [Config] start initial provider name=provider-scholar
+21:59:39 INF [Config] initial compatible provider name=🛑 AD
+21:59:39 INF [Config] initial compatible provider name=🎓 Scholar
+21:59:39 INF [Config] initial compatible provider name=🚀 Accel.
+21:59:39 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=system inet=198.18.0.1/16
+22:01:10 INF [TCP] connected lAddr=127.0.0.1:48386 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:03:10 INF [TCP] connected lAddr=127.0.0.1:33344 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:05:10 INF [TCP] connected lAddr=127.0.0.1:59860 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:06:23 INF [TCP] connected lAddr=127.0.0.1:49442 rAddr=api.wetter.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:06:29 INF [TCP] connected lAddr=127.0.0.1:49456 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:07:10 INF [TCP] connected lAddr=127.0.0.1:45254 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:07:31 INF [TCP] connected lAddr=127.0.0.1:50154 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:09:10 INF [TCP] connected lAddr=127.0.0.1:41298 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:10:31 INF [TCP] connected lAddr=127.0.0.1:37136 rAddr=v11.toutiaovod.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:10:33 INF [TCP] connected lAddr=127.0.0.1:47450 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:11:10 INF [TCP] connected lAddr=127.0.0.1:34940 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:13:10 INF [TCP] connected lAddr=127.0.0.1:53296 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:13:51 INF [TCP] connected lAddr=127.0.0.1:57676 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:15:10 INF [TCP] connected lAddr=127.0.0.1:56946 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:17:10 INF [TCP] connected lAddr=127.0.0.1:59344 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:19:10 INF [TCP] connected lAddr=127.0.0.1:33414 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:21:10 INF [TCP] connected lAddr=127.0.0.1:40740 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:23:10 INF [TCP] connected lAddr=127.0.0.1:44424 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:10 INF [TCP] connected lAddr=127.0.0.1:36660 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:45 INF [TCP] connected lAddr=127.0.0.1:60066 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:45 INF [TCP] connected lAddr=127.0.0.1:60080 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:47 INF [TCP] connected lAddr=127.0.0.1:60082 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:48 INF [TCP] connected lAddr=127.0.0.1:60088 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:54 INF [TCP] connected lAddr=127.0.0.1:42060 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:25:56 INF [TCP] connected lAddr=127.0.0.1:42062 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:00 INF [TCP] connected lAddr=127.0.0.1:42074 rAddr=www.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:01 INF [TCP] connected lAddr=127.0.0.1:42078 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:01 INF [TCP] connected lAddr=127.0.0.1:42090 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:02 INF [TCP] connected lAddr=127.0.0.1:42100 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:02 INF [TCP] connected lAddr=127.0.0.1:42102 rAddr=api.live.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:03 INF [TCP] connected lAddr=127.0.0.1:41244 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:03 INF [TCP] connected lAddr=127.0.0.1:41260 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:03 INF [TCP] connected lAddr=127.0.0.1:41264 rAddr=passport.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:04 INF [TCP] connected lAddr=127.0.0.1:41280 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:04 INF [TCP] connected lAddr=127.0.0.1:41292 rAddr=config.immersivetranslate.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:26:13 INF [TCP] connected lAddr=127.0.0.1:44468 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:13 INF [TCP] connected lAddr=127.0.0.1:44482 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:15 INF [TCP] connected lAddr=127.0.0.1:44486 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:26:17 INF [TCP] connected lAddr=127.0.0.1:44500 rAddr=s.search.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:34 INF [TCP] connected lAddr=127.0.0.1:47092 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:35 INF [TCP] connected lAddr=127.0.0.1:47104 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:40 INF [TCP] connected lAddr=127.0.0.1:47114 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:40 INF [TCP] connected lAddr=127.0.0.1:47120 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:40 INF [TCP] connected lAddr=127.0.0.1:47124 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:41 INF [TCP] connected lAddr=127.0.0.1:47140 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:41 INF [TCP] connected lAddr=127.0.0.1:47142 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:42 INF [TCP] connected lAddr=127.0.0.1:47148 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:42 INF [TCP] connected lAddr=127.0.0.1:47160 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:42 INF [TCP] connected lAddr=127.0.0.1:58108 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:42 INF [TCP] connected lAddr=127.0.0.1:58118 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58130 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58136 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58148 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58158 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58160 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58178 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:43 INF [TCP] connected lAddr=127.0.0.1:58168 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58202 rAddr=fc-ccimage.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58192 rAddr=t14.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58200 rAddr=fc1tn.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58226 rAddr=gimg3.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58222 rAddr=t8.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58254 rAddr=ms.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58206 rAddr=t15.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58242 rAddr=ms.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58260 rAddr=ms.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58232 rAddr=ms.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58266 rAddr=pss.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58292 rAddr=fc-ccimage.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58314 rAddr=ms.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58278 rAddr=pss.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58326 rAddr=pss.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58330 rAddr=pss.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58304 rAddr=gimg4.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58322 rAddr=t13.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58344 rAddr=pss.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58350 rAddr=t13.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58376 rAddr=t9.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58360 rAddr=t9.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58406 rAddr=hectorstatic.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58390 rAddr=search-operate.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58428 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58416 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58430 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:44 INF [TCP] connected lAddr=127.0.0.1:58440 rAddr=hector.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58454 rAddr=b.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58464 rAddr=b.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58450 rAddr=b.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58474 rAddr=b.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58470 rAddr=b.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58482 rAddr=ug.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58490 rAddr=ug.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:45 INF [TCP] connected lAddr=127.0.0.1:58442 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58496 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58508 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58522 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58506 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58526 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58532 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58534 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58544 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58554 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:48 INF [TCP] connected lAddr=127.0.0.1:58560 rAddr=www.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:49 INF [TCP] connected lAddr=127.0.0.1:58566 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:49 INF [TCP] connected lAddr=127.0.0.1:58574 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:53 INF [TCP] connected lAddr=127.0.0.1:49084 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:53 INF [TCP] connected lAddr=127.0.0.1:49086 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:53 INF [TCP] connected lAddr=127.0.0.1:49092 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:26:55 INF [TCP] connected lAddr=127.0.0.1:49100 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:55 INF [TCP] connected lAddr=127.0.0.1:49106 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:57 INF [TCP] connected lAddr=127.0.0.1:49114 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:57 INF [TCP] connected lAddr=127.0.0.1:49122 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:57 INF [TCP] connected lAddr=127.0.0.1:49134 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:57 INF [TCP] connected lAddr=127.0.0.1:49144 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:58 INF [TCP] connected lAddr=127.0.0.1:49166 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:26:58 INF [TCP] connected lAddr=127.0.0.1:49156 rAddr=aa.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:58 INF [TCP] connected lAddr=127.0.0.1:49160 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:59 INF [TCP] connected lAddr=127.0.0.1:49170 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:59 INF [TCP] connected lAddr=127.0.0.1:49176 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:26:59 INF [TCP] connected lAddr=127.0.0.1:49182 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:00 INF [TCP] connected lAddr=127.0.0.1:49194 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:00 INF [TCP] connected lAddr=127.0.0.1:49186 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:00 INF [TCP] connected lAddr=127.0.0.1:49210 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:00 INF [TCP] connected lAddr=127.0.0.1:49220 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:02 INF [TCP] connected lAddr=127.0.0.1:49234 rAddr=ogs.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:03 INF [TCP] connected lAddr=127.0.0.1:42276 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:04 INF [TCP] connected lAddr=127.0.0.1:42288 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:04 INF [TCP] connected lAddr=127.0.0.1:42280 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:09 INF [TCP] connected lAddr=127.0.0.1:42292 rAddr=lh5.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:15 INF [TCP] connected lAddr=127.0.0.1:52510 rAddr=suggestion.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:27:21 INF [TCP] connected lAddr=127.0.0.1:52522 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:24 INF [TCP] connected lAddr=127.0.0.1:38724 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:25 INF [TCP] connected lAddr=127.0.0.1:38726 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:27 INF [TCP] connected lAddr=127.0.0.1:38734 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:28 INF [TCP] connected lAddr=127.0.0.1:38742 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:29 INF [TCP] connected lAddr=127.0.0.1:38762 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:29 INF [TCP] connected lAddr=127.0.0.1:38786 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:29 INF [TCP] connected lAddr=127.0.0.1:38746 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:29 INF [TCP] connected lAddr=127.0.0.1:38778 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:29 INF [TCP] connected lAddr=127.0.0.1:38780 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:30 INF [TCP] connected lAddr=127.0.0.1:38800 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:30 INF [TCP] connected lAddr=127.0.0.1:38814 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:30 INF [TCP] connected lAddr=127.0.0.1:38826 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:30 INF [TCP] connected lAddr=127.0.0.1:38840 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:31 INF [TCP] connected lAddr=127.0.0.1:38850 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:27:31 INF [TCP] connected lAddr=127.0.0.1:38862 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:27:31 INF [TCP] connected lAddr=127.0.0.1:38860 rAddr=ogs.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:31 INF [TCP] connected lAddr=127.0.0.1:38868 rAddr=repo.zotero.org:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:27:34 INF [TCP] connected lAddr=127.0.0.1:49658 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:34 INF [TCP] connected lAddr=127.0.0.1:49668 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49700 rAddr=blog.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49684 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49712 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49722 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49692 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49736 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49746 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49748 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49764 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:35 INF [TCP] connected lAddr=127.0.0.1:49766 rAddr=img-home.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49768 rAddr=silkroad.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49798 rAddr=kunpeng.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49818 rAddr=statistic.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49832 rAddr=devpress-api.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49806 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49838 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49846 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49848 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:36 INF [TCP] connected lAddr=127.0.0.1:49860 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:37 INF [TCP] connected lAddr=127.0.0.1:49784 rAddr=mp-activity.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:37 INF [TCP] connected lAddr=127.0.0.1:49876 rAddr=mp-activity.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:38 INF [TCP] connected lAddr=127.0.0.1:49892 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:27:38 INF [TCP] connected lAddr=127.0.0.1:49908 rAddr=blog.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:43 INF [TCP] connected lAddr=127.0.0.1:37298 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:27:58 INF [TCP] connected lAddr=127.0.0.1:44522 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:28:03 INF [TCP] connected lAddr=127.0.0.1:49678 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:04 INF [TCP] connected lAddr=127.0.0.1:49704 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:04 INF [TCP] connected lAddr=127.0.0.1:49694 rAddr=e2c57.gcp.gvt2.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:28:05 INF [TCP] connected lAddr=127.0.0.1:49714 rAddr=eva2.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:05 INF [TCP] connected lAddr=127.0.0.1:49720 rAddr=beacons.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:06 INF [TCP] connected lAddr=127.0.0.1:49738 rAddr=ev.csdn.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:07 INF [TCP] connected lAddr=127.0.0.1:49732 rAddr=e2c7.gcp.gvt2.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:28:08 INF [TCP] connected lAddr=127.0.0.1:49752 rAddr=beacons2.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:49 INF [TCP] connected lAddr=127.0.0.1:38182 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:28:52 INF [TCP] connected lAddr=127.0.0.1:38186 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:29:04 INF [TCP] connected lAddr=127.0.0.1:60496 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:05 INF [TCP] connected lAddr=127.0.0.1:60510 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:05 INF [TCP] connected lAddr=127.0.0.1:60512 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:05 INF [TCP] connected lAddr=127.0.0.1:60528 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:05 INF [TCP] connected lAddr=127.0.0.1:60538 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:06 INF [TCP] connected lAddr=127.0.0.1:60552 rAddr=live-trace.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:08 INF [TCP] connected lAddr=127.0.0.1:60554 rAddr=cn-bj-se-01-03.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:09 INF [TCP] connected lAddr=127.0.0.1:60566 rAddr=cn-bj-se-01-01.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:29:13 INF [TCP] connected lAddr=127.0.0.1:55612 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:30:10 INF [TCP] connected lAddr=127.0.0.1:57900 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:30:22 INF [TCP] connected lAddr=127.0.0.1:54992 rAddr=api.wetter.com:443 mode=rule rule=IPCIDR(0.0.0.0/0) proxy=🚀 Accel.[DIRECT]
+22:30:44 INF [TCP] connected lAddr=127.0.0.1:51512 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]
+22:32:04 INF [TCP] connected lAddr=127.0.0.1:57678 rAddr=api.vc.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:05 INF [TCP] connected lAddr=127.0.0.1:57684 rAddr=api.bilibili.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:05 INF [TCP] connected lAddr=127.0.0.1:57690 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:05 INF [TCP] connected lAddr=127.0.0.1:57710 rAddr=cn-bj-se-01-06.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:05 INF [TCP] connected lAddr=127.0.0.1:57696 rAddr=cn-bj-se-01-05.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:06 INF [TCP] connected lAddr=127.0.0.1:57720 rAddr=bvc.bilivideo.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:32:13 INF [TCP] connected lAddr=127.0.0.1:38806 rAddr=www.youtube.com:443 mode=rule rule=DomainSuffix(youtube.com) proxy=🧱 GFW[🇺🇸 [v6]US-H1 (0.6x)]

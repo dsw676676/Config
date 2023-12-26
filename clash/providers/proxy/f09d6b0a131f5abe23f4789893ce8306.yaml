@@ -1,0 +1,33 @@
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG-2 (0.8x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv4-2.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-H1 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4430
+  server: mixv4-6.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-H2 (0.6x)"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4488
+  server: mixv4-7.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless
+- name: "\U0001F1FA\U0001F1F8 US-A"
+  password: a96d738f-1d6d-4349-946a-b3945449c22d
+  port: 4480
+  server: mixv4-18.194610.xyz
+  sni: pku.speedtest.ooklaserver.wallesspku.space
+  tls: true
+  type: http
+  username: walless

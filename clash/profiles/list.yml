@@ -1,0 +1,26 @@
+files:
+  - time: 1698246854589.yml
+    name: WallessPKU.yaml
+    url: " https://subs.941321.xyz/clash/2000013355@stu.pku.edu.cn/37j5yse5xa"
+    selected:
+      - name: GLOBAL
+        now: 🧱 GFW
+      - name: 🎓 Scholar
+        now: 🧱 GFW
+      - name: 🔔 Info
+        now: "Balance: 20.00 GB"
+      - name: 🚀 Accel.
+        now: 🧱 GFW
+      - name: 🛑 AD
+        now: DIRECT
+      - name: 🧱 GFW
+        now: 🇺🇸 US-H2 (0.6x)
+    interval: 12
+    subInfo:
+      upload: 0
+      download: 0
+      total: 21474836480
+      expire: 1703606400
+    homeWeb: ""
+    mode: rule
+index: 0
